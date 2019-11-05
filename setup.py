@@ -1,3 +1,4 @@
+""" 
 MIT License
 
 Copyright (c) 2019 Claude SIMON (https://q37.info/s/rmnmqd49)
@@ -19,3 +20,38 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+"""
+
+import setuptools
+
+version = "0.0.1"
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="edutk",
+    version=version,
+    author="Claude SIMON",
+#    author_email="author@example.com",
+    description="Toolkit to make exercises for programming tutorials.",
+    keywords="education, tutorial, Atlas tookit",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/epeios-q37/edutk-python",
+    packages=setuptools.find_packages(),
+    install_requires=[
+        'atlastk',
+    ],
+    classifiers=[
+      "Environment :: Web Environment",
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Education",
+      "Intended Audience :: Other Audience",
+      "License :: OSI Approved :: MIT License ",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 3",
+      "Topic :: Education"
+    ]
+)
