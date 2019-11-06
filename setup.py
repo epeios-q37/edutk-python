@@ -24,7 +24,7 @@ SOFTWARE.
 
 import setuptools
 
-version = "0.0.1"
+version = "0.1.0"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -34,8 +34,8 @@ setuptools.setup(
     version=version,
     author="Claude SIMON",
 #    author_email="author@example.com",
-    description="Toolkit to make exercises for programming tutorials.",
-    keywords="education, tutorial, Atlas tookit",
+    description="Toolkit to make modern exercises for programming tutorials.",
+    keywords="education, tutorial, programming, Atlas toolkit",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/epeios-q37/edutk-python",
@@ -44,8 +44,8 @@ setuptools.setup(
         'atlastk',
     ],
     classifiers=[
+      "Development Status :: 4 - Beta",
       "Environment :: Web Environment",
-      "Development Status :: 3 - Alpha",
       "Intended Audience :: Education",
       "Intended Audience :: Other Audience",
       "License :: OSI Approved :: MIT License ",
