@@ -34,8 +34,8 @@ import traceback
 # instead of being displayed in an alert box.
 _regularExceptions = False
 
-sys.path.append("./Atlas.zip")
-sys.path.append("../Atlas.zip")
+sys.path.append("./atlastk.zip")
+sys.path.append("../atlastk.zip")
 
 import atlastk as Atlas
 
